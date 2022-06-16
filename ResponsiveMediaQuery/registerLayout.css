@@ -1,0 +1,137 @@
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+  html,
+  body {
+    height: 97%;
+    width: 95%;
+    background-color: rgb(243, 126, 126);
+    color: white;
+  }
+  .hero{
+      margin: 0 2vw 0 10vw;
+  
+  }
+  h1{
+      font-size: 55px;
+  }
+  p{
+      font-size: medium;
+  
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    border: none;
+    background-color: rgb(72, 72, 150);
+    height: 50px;
+    border-radius: 10px;
+    width: 37vw;
+    margin: 10vh 5vw 5vh 0vw;
+    color: aliceblue;
+    font-size: medium;
+    box-shadow: #c5c6c7;
+    
+  }
+  button span{
+      font-weight: bolder;
+  }
+  .form-holder{
+      display: flex;
+      width: 35vw;
+      border-radius: 10px;
+      padding: 15px;
+      background-color: white;
+      margin-right: 5vw;
+      justify-content: center;
+      align-items: center;
+  }
+  .form {
+    font-size: large;
+    margin: 3vh 5vw;
+    align-items: left;
+    color: black;
+  }
+  .form p{
+      padding: 0 2.1vw 5vh;
+      font-size: small ;
+      
+  } 
+  .form span{
+      color: red;
+  }
+  input#submit {
+    background-color: rgb(48, 190, 133);
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    width: 32vw;
+    color: whitesmoke;
+    
+  }
+  input:hover {
+    border: solid black;
+    color: #c5c6c7;
+  }
+  input#submit:hover{
+      
+      background-color: rgb(45, 218, 117);
+  }
+  input {
+    height: 50px;
+    border-radius: 5px;
+    width: 30vw;
+    border: solid 2px grey;
+    padding-left: 25px;
+  }
+  
+  @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  
+      
+  .main {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+      margin: 1vh 5vw 5vh 10vw;
+    width: 83vw;
+    
+  }
+  h1{
+      font-size: 30px;
+      text-align: center;
+      line-height: 30px;
+  }
+  p{
+      font-size: medium;
+      text-align: center;
+       line-height: 20px;
+  }
+  .form-holder{
+      width: 73vw;
+      margin: 0vh 5vw 0vh 10vw;
+      /* padding: 3vh 5vw; */
+      margin-bottom: 4px;
+  }
+  input {
+      width: 70vw;
+  }
+  input#submit {
+       width: 77vw;
+  
+  }
+  input:hover {
+    border: solid black;
+    color: #c5c6c7;
+  }
+  .form p{
+      padding: 5px 0;
+  }
+  .credentials{
+      padding-bottom: 25px;
+  }
+      }
