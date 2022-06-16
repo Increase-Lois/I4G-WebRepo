@@ -5,8 +5,9 @@
   body {
     height: 97%;
     width: 95%;
-    background-color: rgb(243, 126, 126);
+    background-color: hsl(0, 100%, 74%) ;
     color: white;
+    font-size: 16px;
   }
   .hero{
       margin: 0 2vw 0 10vw;
@@ -26,12 +27,12 @@
   }
   button {
     border: none;
-    background-color: rgb(72, 72, 150);
+    background-color:   hsl(248, 32%, 49%);
     height: 50px;
     border-radius: 10px;
     width: 37vw;
     margin: 10vh 5vw 5vh 0vw;
-    color: aliceblue;
+    color: hsl(246, 25%, 77%)    ;
     font-size: medium;
     box-shadow: #c5c6c7;
     
@@ -57,14 +58,14 @@
   }
   .form p{
       padding: 0 2.1vw 5vh;
-      font-size: small ;
-      
+      font-size: small ;  
   } 
+
   .form span{
       color: red;
   }
   input#submit {
-    background-color: rgb(48, 190, 133);
+    background-color:  hsl(154, 59%, 51%);
     font-size: 13px;
     cursor: pointer;
     border: none;
@@ -78,17 +79,18 @@
   }
   input#submit:hover{
       
-      background-color: rgb(45, 218, 117);
+      background-color:  hsl(154, 59%, 51%);
   }
   input {
     height: 50px;
     border-radius: 5px;
     width: 30vw;
-    border: solid 2px grey;
+    border: solid 2px hsl(246, 25%, 77%)
+    ;
     padding-left: 25px;
   }
   
-  @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  @media only screen and (max-width: 375px), only screen and (max-device-width: 1440px) {
   
       
   .main {
